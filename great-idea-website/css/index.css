@@ -92,7 +92,7 @@ ul {
 
 li {
 	display: inline-block;
-	margin-right: 60px;
+	margin-right: 20px;
 	
 }
 
@@ -108,8 +108,21 @@ nav {
 	margin-left: 10px;
 }
 
+button.nav-button {
+    width: 90px;
+    height: 25px;
+    background-color: black;
+    color: lightgray;
+    position: relative;
+    vertical-align: middle;
+}
+
+button.nav-button:hover {
+	background-color: rgb(42, 235, 42);
+	color: black;
+}
+
 img.logo {
-	/* display: inline-block; */
 	position: absolute;
 	left: 700px;
 	top: 50px;
@@ -119,10 +132,6 @@ img.logo {
 
 
 
-div.top-section {
-	width: 100%;
-	border: 1px solid black;
-}
 
 section.top {
 	width: 49%;
@@ -131,11 +140,23 @@ section.top {
 	margin-right: auto;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	vertical-align: middle;
 }
 
+div#h1 {
+	text-align: center;
+	vertical-align: middle;
+}
 h1 {
 	font-size: 500%;	
-	text-align: center;
+}
+
+button {
+	vertical-align: middle;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
 }
 
 img.code {
